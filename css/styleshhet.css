@@ -1,0 +1,85 @@
+:root{
+    --maincolor:#8e7754;
+    --secondcolor:#fff;
+    --thirdcolor:#333;
+}
+
+
+body{
+    /* overflow: hidden !important; */
+}
+
+.main-section{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center center;
+}
+
+.bg-main-color{
+    background-color: var(--maincolor) !important;
+    border-color:var(--maincolor) !important ;
+    color: var(--secondcolor);
+}
+
+.bg-main-color:hover{
+    background-color:var(--secondcolor) !important;
+    border-color:var(--secondcolor) ;
+    color: var(--thirdcolor);
+}
+
+.pht{
+    width: 100% !important;
+}
+
+.icon{
+    color: #8e7754;
+}
+
+.icon-2{
+    color: #8e7754;
+}
+
+
+.footer-color{
+    background-color: #403d38 !important;
+}
+
+.border-p-footer{
+    border-bottom: 1px solid white ;
+    border-color: var(--thirdcolor) !important;
+    
+}
+
+.footer-color2{
+    background-color: #353330 !important;
+}
+
+.icon-face{
+    color: darkblue;
+    transition-duration: 0.7s;
+}
+
+.icon-face:hover{
+    color: aqua;
+
+}
+
+
+.icon-twitter{
+    color: darkcyan;
+    transition-duration: 0.7s;
+}
+
+.icon-twitter:hover{
+    color: black;
+}
+
+.icon-googleplus{
+    color: red;
+    transition-duration: 0.7s;
+}
+
+.icon-googleplus:hover{
+    color: aqua;
+}
